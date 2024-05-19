@@ -1,0 +1,66 @@
+@media (max-width: 767px) {
+}
+@media (min-width: 768px) {
+}
+@media (min-width: 991px) {
+}
+@media (min-width: 1200px) {
+}
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Work Sans", sans-serif;
+}
+:root {
+  --maincolor: #10cab7;
+}
+
+ul,
+li {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  color: #000;
+}
+.container {
+  width: 80%;
+  margin: auto;
+}
+.mg-space {
+  margin: 50px 0;
+}
+.section-header {
+  text-align: center;
+  margin-bottom: 80px;
+}
+.section-name {
+  font-size: 100px;
+  color: #ebecee;
+  text-transform: capitalize;
+}
+.section-desc {
+  font-size: 20px;
+  color: gray;
+  margin-top: -32px;
+}
+@media (max-width: 767px) {
+  .section-header > .section-name {
+    font-size: 50px;
+  }
+  .section-header > .section-desc {
+    font-size: 16px;
+    margin-top: -18px;
+  }
+}
